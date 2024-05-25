@@ -3,8 +3,8 @@ use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_ARITH.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 entity 4to1mux is
-    Port ( I : in  STD_LOGIC_VECTOR (1 downto 0);
-           S : in  STD_LOGIC;
+    Port ( I : in  STD_LOGIC_VECTOR (3 downto 0);
+           S : in  STD_LOGIC_VECTOR (1 downto 0);
            Y : out  STD_LOGIC);
 end 4to1mux;
 architecture Behavioral of 4to1mux is
