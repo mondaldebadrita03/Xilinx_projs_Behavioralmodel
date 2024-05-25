@@ -12,7 +12,7 @@ architecture Behavioral of half_adder is
 begin
 process(a,b)
 begin
-       if((a='1') and (b='1')) or ((a='0') and (b='0')) then
+       if(((a='1') and (b='1')) or ((a='0') and (b='0'))) then
               s<='0';
         else
               s<='1';
