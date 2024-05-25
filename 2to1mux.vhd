@@ -9,7 +9,7 @@ entity 2to1mux is
 end 2to1mux;
 architecture Behavioral of 2to1mux is
 begin
-process(I)
+process(I,S)
 begin
         if(S='1') then
               Y<= I(1);
