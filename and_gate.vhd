@@ -12,9 +12,9 @@ begin
 process(a,b)
 begin
        if(a='1') and (b='1') then
-              c<='0';
-        else
               c<='1';
+        else
+              c<='0';
         end if;
 end process;
 end Behavioral;
