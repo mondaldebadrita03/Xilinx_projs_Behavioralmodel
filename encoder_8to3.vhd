@@ -2,11 +2,11 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_ARITH.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
-entity 8to3encoder is
+entity encoder_8to3 is
     Port ( I : in  STD_LOGIC_VECTOR(3 downto 0);
            Y : in  STD_LOGIC_VECTOR(1 downto 0));
-end 8to3encoder;
-architecture Behavioral of 8to3encoder is
+end encoder_8to3;
+architecture Behavioral of encoder_8to3 is
 begin
 process(I)
 begin
